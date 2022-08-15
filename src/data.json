@@ -1,0 +1,65 @@
+[
+    {
+        "id": "1",
+        "aptTitle": "Onboarding Meeting",
+        "aptLocation": "Ikeja City Mall",
+        "aptDate": "08-10-2022 08:04 PM",
+        "aptNotes": "Be early and formally dressed."
+    },
+    {
+        "id": "2",
+        "aptTitle": "Hangout with besties",
+        "aptLocation": "Rhapsody",
+        "aptDate": "08-10-2022 08:04 PM",
+        "aptNotes": "Dress classy. Take cash."
+    },
+    {
+        "id": "3",
+        "aptTitle": "Family brunch",
+        "aptLocation": "Grandfather's house",
+        "aptDate": "08-10-2022 08:04 PM",
+        "aptNotes": "Buy potato pie for Grandmother"
+    },
+    {
+        "id": "4",
+        "aptTitle": "School health registration",
+        "aptLocation": "Deans office",
+        "aptDate": "08-10-2022 08:04 PM",
+        "aptNotes": "Take all registration documents."
+    },
+    {
+        "id": "5",
+        "aptTitle": "Gym day",
+        "aptLocation": "Hotel gym",
+        "aptDate": "08-10-2022 08:04 PM",
+        "aptNotes": "Take two bottles of water with you."
+    },
+    {
+        "id": "6",
+        "aptTitle": "Nail appointment",
+        "aptLocation": "Sissy's nail salon",
+        "aptDate": "08-10-2022 08:04 PM",
+        "aptNotes": "Take a good book along. Book an apt for your next fix."
+    },
+    {
+        "id": "7",
+        "aptTitle": "Youth group",
+        "aptLocation": "Church",
+        "aptDate": "08-10-2022 08:04 PM",
+        "aptNotes": "Bring your evangelism response slips along."
+    },
+    {
+        "id": "8",
+        "aptTitle": "Project meeting",
+        "aptLocation": "Zoom",
+        "aptDate": "08-10-2022 08:04 PM",
+        "aptNotes": "Get a pen and paper ready."
+    },
+    {
+        "id": "9",
+        "aptTitle": "Class event dinner",
+        "aptLocation": "Lecture theatre one",
+        "aptDate": "08-10-2022 08:04 PM",
+        "aptNotes": "Book your makeup. Get your dress fixed."
+    }
+]

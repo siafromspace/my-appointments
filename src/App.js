@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import AppointmentForm from './components/AppointmentForm';
+import Search from './components/Search';
+import AptListContextProvider from './contexts/AptListContext';
+import AppointmentList from './components/AppointmentList';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="max-w-5xl min-w-sm my-4 px-4 mx-auto flex flex-col space-y-4">
+      <Header />
+      <AptListContextProvider>
+        <AppointmentForm />
+        <Search />
+        <AppointmentList />
+      </AptListContextProvider>
     </div>
   );
 }
