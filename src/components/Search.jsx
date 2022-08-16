@@ -30,9 +30,9 @@ const Search = () => {
                 value={query}
                 onChange={(e) => onChangeQuery(e.target.value)}
                 type="text" placeholder="Search"
-                className="border-2 border-neutral-200 rounded-l-md pl-8 appearance-none h-10 w-9/12 sm:w-10/12" />
+                className="border-2 border-neutral-200 rounded-l-md pl-8 appearance-none h-10 w-8/12 sm:w-10/12" />
             <button onClick={() => setToggleDropDown(!toggleDropDown)}
-                className="bg-blue-400 text-white py-2 px-2 w-3/12 sm:w-2/12"> Sort By <BiArrowToBottom className="inline" /> </button>
+                className="bg-blue-400 text-white py-2 px-2 w-4/12 sm:w-2/12"> Sort By <BiArrowToBottom className="inline" /> </button>
             <DropDown toggle={toggleDropDown} sortBy={sortBy} orderBy={orderBy} onChangeSortBy={(mySort) => onChangeSortBy(mySort)} onChangeOrderBy={(mySort) => onChangeOrderBy(mySort)} />
         </div>
     );
