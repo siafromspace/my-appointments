@@ -3,10 +3,10 @@ import { AptListContext } from "../contexts/AptListContext";
 import AppointmentDetails from "./AppointmentDetails";
 
 const AppointmentList = () => {
-    const { aptList } = useContext(AptListContext)
+    const { filteredList } = useContext(AptListContext)
     return (
         <div className="divide-y divide-gray-200">
-            {aptList.map(item => {
+            {filteredList.map(item => {
                 return <AppointmentDetails
                     key={item.id}
                     id={item.id}

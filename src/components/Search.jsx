@@ -8,12 +8,12 @@ const DropDown = ({ toggle }) => {
         return null
     }
     return (
-        <ul className="absolute bg-white top-12 right-0 shadow-md rounded-md w-60 space-y-4 z-10">
-            <li className="cursor-pointer px-4 pt-4 text-neutral-500">Title <BiCheck className="inline float-right text-neutral-900" /></li>
-            <li className="cursor-pointer px-4 text-neutral-500">Date <BiCheck className="inline float-right text-neutral-900" /></li>
+        <ul className="absolute bg-white top-12 right-0 shadow-md rounded-md w-60 z-10">
+            <li className="cursor-pointer px-4 text-neutral-500 hover:bg-neutral-400 hover:text-white py-2">Title <BiCheck className="inline float-right text-neutral-900" /></li>
+            <li className="cursor-pointer px-4 text-neutral-500 hover:bg-neutral-400 hover:text-white py-2">Date <BiCheck className="inline float-right text-neutral-900" /></li>
             <hr />
-            <li className="cursor-pointer px-4 text-neutral-500">Asc <BiCheck className="inline float-right text-neutral-900" /></li>
-            <li className="cursor-pointer px-4 pb-4 text-neutral-500">Desc <BiCheck className="inline float-right text-neutral-900" /></li>
+            <li className="cursor-pointer px-4 text-neutral-500 hover:bg-neutral-400 hover:text-white py-2">Asc <BiCheck className="inline float-right text-neutral-900" /></li>
+            <li className="cursor-pointer px-4 text-neutral-500 hover:bg-neutral-400 hover:text-white py-2">Desc <BiCheck className="inline float-right text-neutral-900" /></li>
         </ul>
     );
 }
