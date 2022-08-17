@@ -74,7 +74,7 @@ const AptListContextProvider = ({ children }) => {
         return localData ? JSON.parse(localData) : AppointmentList
     })
     const [filteredList, setFilteredList] = useState(aptList)
-    const [sortBy, setSortBy] = useState("aptTitle")
+    const [sortBy, setSortBy] = useState("aptDate")
     const [orderBy, setOrderBy] = useState("asc")
 
     const onChangeSortBy = (mySort) => {
